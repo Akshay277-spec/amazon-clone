@@ -139,9 +139,11 @@ body {
 /* hero section */
 .hero-sec {
     display: flex;
-    justify-self: auto;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: scroll;
+    background-color: #464646;
     height: 15rem;
 }
 
